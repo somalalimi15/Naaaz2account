@@ -1,7 +1,11 @@
 const Discord = require("discord.js")
 const client = new Discord.Client();
-var prefix = "N"
 
+
+
+
+
+var prefix = "-N"
 
 client.on('message', function(message) {
 	const myID = "416643173239226388";
